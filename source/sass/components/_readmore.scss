@@ -1,0 +1,24 @@
+@import "compass/css3";
+@import "colors";
+/* read more*/
+
+.readmore {
+  margin: 4em 0 2em 0;
+  a {
+    font-size: 14px;
+    color: #444;
+    padding: 8px 16px;
+    border: 2px solid #aaa;
+    @include border-radius(0);
+    &:after {
+      font-family: "FontAwesome";
+      content: "\f101";
+      padding-left: 0.3em;
+    }
+    &:hover {
+      background: $bg-green-d;
+      color: #fff;
+      border: 2px solid $fill-green;
+    }
+  }
+}

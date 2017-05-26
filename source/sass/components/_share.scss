@@ -1,0 +1,116 @@
+/* article-share*/
+.article-share-link {
+  cursor: pointer;
+  float: right;
+  margin-left: 20px;
+  &:before {
+    font-family: "FontAwesome";
+    content: "\f064";
+    padding-right: 6px;
+  }
+}
+
+.article-share-box {
+  position: absolute;
+  display: none;
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  margin-left: -145px;
+  overflow: hidden;
+  z-index: 1;
+  &.on {
+    display: block;
+  }
+}
+
+.article-share-input {
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0 15px;
+  color: #555;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 3px 3px 0 0;
+  height: 36px;
+  line-height: 36px;
+}
+
+.article-share-links {
+  clearfix: none;
+  background: #eee;
+}
+
+.article-share-element {
+  width: 50px;
+  height: 36px;
+  display: block;
+  float: left;
+  position: relative;
+  color: #999;
+  text-shadow: 0 1px #fff;
+  &:before {
+    font-size: 20px;
+    font-family: "FontAwesome";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+    text-align: center;
+  }
+  &:hover {
+    color: #fff;
+  }
+}
+.article-share-twitter {
+  @extend .article-share-element;
+  &:before {
+    content: "\f099";
+  }
+  &:hover {
+    background: #00aced;
+  }
+}
+
+.article-share-facebook {
+  @extend .article-share-element;
+  &:before {
+    content: "\f09a";
+  }
+  &:hover {
+    background: #3b5998;
+  }
+}
+
+.article-share-weibo {
+  @extend .article-share-element;
+  &:before {
+    content: "\f18a";
+  }
+  &:hover {
+    background: #d44137;
+  }
+}
+
+.article-share-wechat {
+  @extend .article-share-element;
+  &:before {
+    content: "\f1d7";
+  }
+  &:hover {
+    background: #38ad5a;
+    &~ .wechat-qrcode {
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.wechat-qrcode {
+  display: none;
+}

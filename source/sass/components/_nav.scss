@@ -1,0 +1,88 @@
+
+
+.page-navigator {
+  border-top: 1px solid #ddd;
+  list-style: none;
+  margin-top: 25px;
+  padding: 25px 0 0;
+  font-size: 14px;
+  text-align: center;
+  .page-number {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+  }
+  a, span {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 5px 9px;
+    border: 1px solid #DDD;
+    text-align: center;
+    &:hover {
+      background: #F8F8F8;
+      border-bottom-color: #D26911;
+    }
+    &.prev {
+      float: left;
+      &:before {
+        font-family: "FontAwesome";
+        content: "\f100";
+        padding-right: 0.3em;
+      }
+    }
+    &.next {
+      float: right;
+      &:after {
+        font-family: "FontAwesome";
+        content: "\f101";
+        padding-left: 0.3em;
+      }
+    }
+  }
+  .current {
+    background: #F8F8F8;
+    border-bottom-color: #D26911;
+  }
+  .space {
+    border: none;
+    padding: 5px 5px;
+  }
+}
+
+/* post navigator*/
+.post-nav {
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+  white-space: nowrap;
+  border-top: 1px solid #eee;
+  a {
+    display: inline-block;
+    line-height: 25px;
+    font-size: 15px;
+    color: #555;
+    border-bottom: none;
+    float: left;
+    &.pre {
+      float: left;
+      &:before {
+        font-family: "FontAwesome";
+        content: "\f0d9";
+        padding-right: 0.3em;
+      }
+    }
+    &.next {
+      float: right;
+      &:after {
+        font-family: "FontAwesome";
+        content: "\f0da";
+        padding-left: 0.3em;
+      }
+    }
+    &:hover {
+      border-bottom: none;
+      color: #222;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+
+/* table*/
+table {
+  margin: auto auto 15px;
+  width: 100%;
+  background: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  th {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-bottom: 2px solid #909ba2;
+  }
+  td {
+    padding: 5px 10px;
+  }
+  tr {
+    &:nth-child(2n) {
+      background: #f7f8f8;
+    }
+  }
+}

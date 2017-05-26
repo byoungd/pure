@@ -1,0 +1,55 @@
+#header {
+  padding: 24px 0 0;
+  text-align: left;
+  position: relative;
+  .site-name {
+    margin-bottom: 40px;
+    h1 {
+      padding: 0;
+      margin: 0;
+      height: 0;
+      overflow: hidden;
+    }
+    #logo {
+      font: bold 38px/1.12 "Times New Roman", Georgia, Times, sans-serif;
+      color: #555;
+      span, &:hover {
+        color: #777;
+      }
+    }
+    .description {
+      margin: .2em 0 0;
+      color: #999;
+    }
+  }
+  #nav-menu {
+    margin: 10px 0 -1px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    a {
+      display: inline-block;
+      margin: 3px 20px 3px;
+      line-height: 30px;
+      color: #444;
+      font-size: 13px;
+      border: 1px solid transparent;
+      &:hover {
+        border-bottom-color: #444;
+      }
+      &.current {
+        border-bottom: 1px solid #6e7173;
+      }
+    }
+  }
+}
+@media print, screen and (max-width: 48em) {
+  #header #nav-menu a {
+    padding: 0 15px;
+    line-height: 27px;
+    height: 27px;
+    font-size: 13px;
+    margin: 0;
+  }
+}
