@@ -49,11 +49,9 @@ links:
 
 timeline:
   - num: 1
-    word: 2014/06/12-Start
+    word: 2016/06/12-Start
   - num: 2
-    word: 2014/11/29-XXX
-  - num: 3
-    word: 2015/02/18-DDD
+    word: 2017/5/20-XXX
   - num: 4
     word: More
 
@@ -62,4 +60,4 @@ js: js
 css: css
 
 # Theme version
-version: 0.0.0
+version: 1.0.0
