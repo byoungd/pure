@@ -2,7 +2,7 @@
 
 
 
-A elegant Hexo template with great performance on different devices, ported from a Typecho theme by [Cho](https://github.com/pagecho/maupassant/), forked and modified from [icylogic](https://github.com/icylogic/maupassant-hexo/).
+An elegant Hexo template with great performance on different devices, ported from a Typecho theme by [Cho](https://github.com/pagecho/maupassant/), forked and modified from [icylogic](https://github.com/icylogic/maupassant-hexo/).
 
 ![hexo-pure.png](https://ooo.0o0.ooo/2017/05/26/5927c5e6f3550.png)
 
