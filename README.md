@@ -111,6 +111,15 @@ version: 0.0.0
 - Theme version - For automatic refresh of static files on CDN.
 
 ## Features
+
+#### SCSS
+I use compass to make the scss development a little easier.within the theme I put a config.rb file,so you just need to:
+
+```shell
+cd themes/pure  #pure theme dir
+compass watch
+```
+
 #### Logo
 You can set a **favicon.ico** for your website, please put it into  `source` folder of hexo directory, recommended size: 32px*32px.
 
