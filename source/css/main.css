@@ -252,7 +252,7 @@ pre[class*="language-"] {
 }
 #sidebar .widget .widget-title {
   color: #6E7173;
-  line-height: 2.6;
+  line-height: 2.0;
   margin-top: 0;
   font-size: 16px;
   /* border-bottom: 1px solid #ddd;*/
@@ -287,6 +287,7 @@ pre[class*="language-"] {
 #sidebar .widget ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 #sidebar .widget ul li {
   margin: 5px 0;
@@ -526,7 +527,7 @@ blockquote:before, .stressed-quote:before {
   display: block;
   font-family: times;
   font-style: normal;
-  font-size: 48px;
+  font-size: 38px;
   color: #444;
   font-weight: bold;
   line-height: 30px;
