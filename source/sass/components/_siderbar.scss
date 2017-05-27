@@ -4,18 +4,27 @@
  /* border-left: 1px solid #ddd;*/
   padding-left: 35px;
   margin-top: 52px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   word-wrap: break-word;
   .widget {
-    margin-bottom: 30px;
+    margin-bottom: 36px;
     .widget-title {
       color: #6E7173;
-      line-height: 2.7;
+      line-height: 2.6;
       margin-top: 0;
       font-size: 16px;
-      border-bottom: 1px solid #ddd;
+     /* border-bottom: 1px solid #ddd;*/
       display: block;
       font-weight: normal;
+    }
+    .post-list{
+      margin: 0;
+    }
+    .friend-links {
+      margin: 0;
+      li {
+        margin: 0.2em 0;
+      }
     }
     .comments-title {
       color: #6E7173;

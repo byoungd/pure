@@ -244,20 +244,29 @@ pre[class*="language-"] {
   /* border-left: 1px solid #ddd;*/
   padding-left: 35px;
   margin-top: 52px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   word-wrap: break-word;
 }
 #sidebar .widget {
-  margin-bottom: 30px;
+  margin-bottom: 36px;
 }
 #sidebar .widget .widget-title {
   color: #6E7173;
-  line-height: 2.7;
+  line-height: 2.6;
   margin-top: 0;
   font-size: 16px;
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 1px solid #ddd;*/
   display: block;
   font-weight: normal;
+}
+#sidebar .widget .post-list {
+  margin: 0;
+}
+#sidebar .widget .friend-links {
+  margin: 0;
+}
+#sidebar .widget .friend-links li {
+  margin: 0.2em 0;
 }
 #sidebar .widget .comments-title {
   color: #6E7173;
