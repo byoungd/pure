@@ -182,9 +182,43 @@
 em {
   font-style: normal;
 }
-.blockquote {
+
+@media print, screen and (max-width: 35.5em) {
+  .body_container {
+    padding: 0 20px ;
+  }
+  .content_container {
+    padding-right: 0;
+  }
+}
+
+blockquote,.stressed {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   margin: 2em 0;
   background: #e4e4e4;
   font-size: 12px;
   padding: 1em;
+  background: #ddd;
+}
+blockquote:before,.stressed-quote:before {
+  content: "\201C";
+  display: block;
+  font-family: times;
+  font-style: normal;
+  font-size: 48px;
+  color: #444;
+  font-weight: bold;
+  line-height: 30px;
+  margin-left: -50px;
+  position: absolute;
+}
+strong,b,em {
+  font-weight: bold;
+}
+pre {
+  margin:2em 0;
+}
+.hidden1 {
+  display: none;
 }
