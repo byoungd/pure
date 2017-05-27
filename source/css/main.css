@@ -498,6 +498,17 @@ pre[class*="language-"] {
   padding-right: 0.3em;
 }
 
+em {
+  font-style: normal;
+}
+
+.blockquote {
+  margin: 2em 0;
+  background: #e4e4e4;
+  font-size: 12px;
+  padding: 1em;
+}
+
 #footer {
   padding: .8em 0 3.6em;
   margin-top: 1em;

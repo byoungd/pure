@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4844823f-33f6-40b6-b395-24a6acc1d84a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/_widget/links.jade" afterPath="$PROJECT_DIR$/layout/_widget/links.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/main.css" afterPath="$PROJECT_DIR$/source/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/main.css.map" afterPath="$PROJECT_DIR$/source/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/sass/components/_siderbar.scss" afterPath="$PROJECT_DIR$/source/sass/components/_siderbar.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,12 +17,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="323">
-                <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+                <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
                 <folding>
                   <marker date="1495849351000" expanded="true" signature="618:683" ph="true #### I…e to true." />
                   <marker date="1495849351000" expanded="true" signature="906:944" ph="true #### U…rue/false." />
@@ -85,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="895">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,7 +93,7 @@
       <file leaf-file-name="_prism.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/sass/components/_prism.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1429">
+            <state relative-caret-position="437">
               <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding />
             </state>
@@ -108,8 +103,8 @@
       <file leaf-file-name="_siderbar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/sass/components/_siderbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="513">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -119,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/layout/_partial/footer.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -128,7 +123,7 @@
       <file leaf-file-name="base.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/base.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-93">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -139,7 +134,7 @@
         <entry file="file://$PROJECT_DIR$/layout/_widget/links.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -164,11 +159,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/layout/_partial/footer.jade" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/sass/components/_prism.scss" />
         <option value="$PROJECT_DIR$/layout/_widget/links.jade" />
         <option value="$PROJECT_DIR$/source/sass/components/_siderbar.scss" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -179,8 +174,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
-    <option name="y" value="51" />
+    <option name="x" value="88" />
+    <option name="y" value="23" />
     <option name="width" value="1832" />
     <option name="height" value="991" />
   </component>
@@ -199,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -319,6 +313,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,15 +413,17 @@
       <updated>1495778481800</updated>
       <workItem from="1495778482948" duration="1833000" />
       <workItem from="1495794432086" duration="1408000" />
-      <workItem from="1495848241610" duration="1117000" />
+      <workItem from="1495848241610" duration="1777000" />
+      <workItem from="1495870352963" duration="154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4358000" />
+    <option name="totallyTimeSpent" value="5172000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="51" width="1832" height="991" extended-state="0" />
+    <frame x="88" y="23" width="1832" height="991" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13362783" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -434,7 +431,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -475,6 +472,123 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <folding>
+              <marker date="1495849351000" expanded="true" signature="618:683" ph="true #### I…e to true." />
+              <marker date="1495849351000" expanded="true" signature="906:944" ph="true #### U…rue/false." />
+              <marker date="1495849351000" expanded="true" signature="1349:1453" ph="false #### …e to true." />
+              <marker date="1495849351000" expanded="true" signature="1466:1541" ph="true #### I…e to true." />
+              <marker date="1495849351000" expanded="true" signature="1551:1624" ph="true #### I…e to true." />
+              <marker date="1495849351000" expanded="true" signature="1635:1711" ph="true #### I…e to true." />
+              <marker date="1495849351000" expanded="true" signature="1738:1794" ph="false #### …l screens." />
+              <marker date="1495849351000" expanded="true" signature="1838:1844" ph="f5f5f5" />
+              <marker date="1495849351000" expanded="true" signature="1845:2076" ph="menu: &lt;3 items&gt;" />
+              <marker date="1495849351000" expanded="true" signature="1861:1865" ph="home" />
+              <marker date="1495849351000" expanded="true" signature="1893:1900" ph="fa-home" />
+              <marker date="1495849351000" expanded="true" signature="1911:1918" ph="archive" />
+              <marker date="1495849351000" expanded="true" signature="1934:1943" ph="archives/" />
+              <marker date="1495849351000" expanded="true" signature="1954:1964" ph="fa-archive" />
+              <marker date="1495849351000" expanded="true" signature="2032:2035" ph="rss" />
+              <marker date="1495849351000" expanded="true" signature="2051:2059" ph="atom.xml" />
+              <marker date="1495849351000" expanded="true" signature="2070:2076" ph="fa-rss" />
+              <marker date="1495849351000" expanded="true" signature="2078:2266" ph="widgets: &lt;6 items&gt;" />
+              <marker date="1495849351000" expanded="true" signature="2192:2198" ph="search" />
+              <marker date="1495849351000" expanded="true" signature="2203:2211" ph="category" />
+              <marker date="1495849351000" expanded="true" signature="2216:2219" ph="tag" />
+              <marker date="1495849351000" expanded="true" signature="2224:2236" ph="recent_posts" />
+              <marker date="1495849351000" expanded="true" signature="2241:2256" ph="recent_comments" />
+              <marker date="1495849351000" expanded="true" signature="2261:2266" ph="links" />
+              <marker date="1495849351000" expanded="true" signature="2268:2399" ph="links: &lt;2 items&gt;" />
+              <marker date="1495849351000" expanded="true" signature="2286:2293" ph="goodman" />
+              <marker date="1495849351000" expanded="true" signature="2303:2338" ph="https://g…d/goodman/" />
+              <marker date="1495849351000" expanded="true" signature="2350:2357" ph="byoungd" />
+              <marker date="1495849351000" expanded="true" signature="2367:2399" ph="https://g…r/byoungd/" />
+              <marker date="1495849351000" expanded="true" signature="2402:2547" ph="timeline: &lt;4 items&gt;" />
+              <marker date="1495849351000" expanded="true" signature="2433:2449" ph="2014/06/12-Start" />
+              <marker date="1495849351000" expanded="true" signature="2471:2485" ph="2014/11/29-XXX" />
+              <marker date="1495849351000" expanded="true" signature="2507:2521" ph="2015/02/18-DDD" />
+              <marker date="1495849351000" expanded="true" signature="2543:2547" ph="More" />
+              <marker date="1495849351000" expanded="true" signature="2568:2570" ph="js" />
+              <marker date="1495849351000" expanded="true" signature="2576:2579" ph="css" />
+              <marker date="1495849351000" expanded="true" signature="2606:2611" ph="0.0.0" />
+              <marker date="1495849351000" expanded="true" signature="5998:6078" ph="highlight: &lt;4 keys&gt;" />
+              <marker date="1495849351000" expanded="true" signature="6019:6023" ph="true" />
+              <marker date="1495849351000" expanded="true" signature="6039:6043" ph="true" />
+              <marker date="1495849351000" expanded="true" signature="6059:6063" ph="true" />
+              <marker date="1495849351000" expanded="true" signature="6124:6128" ph="true" />
+              <marker date="1495849351000" expanded="true" signature="6279:6352" ph="---" />
+              <marker date="1495849351000" expanded="true" signature="6286:6295" ph="Test Math" />
+              <marker date="1495849351000" expanded="true" signature="6302:6321" ph="2016-04-05 14:16:00" />
+              <marker date="1495849351000" expanded="true" signature="6334:6338" ph="math" />
+              <marker date="1495849351000" expanded="true" signature="6348:6352" ph="true" />
+              <marker date="1495849351000" expanded="true" signature="6353:6356" ph="---" />
+              <marker date="1495849351000" expanded="true" signature="6708:6712" ph="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sass/components/_prism.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sass/components/_siderbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/_partial/footer.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/base.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/_widget/links.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/_widget/recent_posts.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -629,17 +743,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/sass/components/_prism.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1429">
+        <state relative-caret-position="437">
           <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding />
         </state>
@@ -649,13 +755,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/base.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -672,7 +777,7 @@
     <entry file="file://$PROJECT_DIR$/layout/_widget/links.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -680,15 +785,15 @@
     <entry file="file://$PROJECT_DIR$/layout/_partial/footer.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/sass/components/_siderbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="513">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -697,7 +802,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="323">
-            <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
             <folding>
               <marker date="1495849351000" expanded="true" signature="618:683" ph="true #### I…e to true." />
               <marker date="1495849351000" expanded="true" signature="906:944" ph="true #### U…rue/false." />
@@ -751,6 +856,14 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
