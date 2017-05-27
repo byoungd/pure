@@ -15,11 +15,11 @@
   .post-title {
     color: #555;
     margin: 0;
-    font-weight: 600;
+    /*font-weight: 600;*/
     line-height: 1.1;
     font-size: 2.8em;
     text-align: left;
-    font-family:"ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
+    font-family:georgia,serif,"ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
     a {
       color: #333;
     }
@@ -91,11 +91,12 @@
     text-justify: distribute;
     word-break: normal;
     margin: 30px 0 10px;
-    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: NotoSansHans-Regular,AvenirNext-Regular,arial,Hiragino Sans GB,"Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;;
     font-size: 16px;
     line-height: 32px;
     color: $posttext;
     h2 {
+      font-family: georgia,serif,"SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
       margin: 1.4em 0 1.1em;
       border-bottom: 1px solid #eee;
       overflow: hidden;
