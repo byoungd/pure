@@ -10,7 +10,7 @@ code[class*="language-"],
 pre[class*="language-"],figure[class*=highlight]{
 	color: #f8f8f2;
 	background: none;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	/*text-shadow: 0 1px rgba(0, 0, 0, 0.3);*/
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
@@ -18,14 +18,10 @@ pre[class*="language-"],figure[class*=highlight]{
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1.5;
+	@include hyphens(none);
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
 	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
 }
 
 /* Code blocks */
