@@ -92,7 +92,7 @@ js: js
 css: css
 
 # Theme version
-version: 0.0.0
+version: 1.0.2
 ```
 - fancybox - Enable [Fancybox](http://fancyapps.com/fancybox/)
 - duoshuo - [Duoshuo](http://duoshuo.com) shortname
