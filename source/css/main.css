@@ -548,6 +548,16 @@ pre {
   display: none;
 }
 
+@media print, screen and (max-width: 48em) {
+  .content_container .post .post-title {
+    font-size: 1.5em;
+  }
+  .content_container .post .post-content p {
+    margin: 0 0 1em;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
 #footer {
   padding: .8em 0 3.6em;
   margin-top: 1em;
@@ -1009,6 +1019,12 @@ pre {
   border: 2px solid #3ac3b3;
 }
 
+@media print, screen and (max-width: 48em) {
+  .readmore {
+    margin: 2em 0 1em 0;
+    text-align: center;
+  }
+}
 /* duoshuo style*/
 #ds-thread #ds-reset {
   color: #555;

@@ -6,8 +6,13 @@ An elegant Hexo template with great performance on different devices, ported fro
 
 [demo site](http://blog.liubi.com)
 
-preview:
+Desktop-preview:
+
 ![pure.png](https://ooo.0o0.ooo/2017/05/27/5928d96fc72ed.png)
+
+Mobile-preview:
+
+![pure-m.png](https://ooo.0o0.ooo/2017/05/28/592a2987d91f4.png)
 
 ## Installation
 Install theme and renderers:

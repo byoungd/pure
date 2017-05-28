@@ -223,3 +223,23 @@ pre {
 .hidden1 {
   display: none;
 }
+
+@media print, screen and (max-width: 48em) {
+  .content_container {
+    .post{
+      .post-title {
+        font-size: 1.5em;
+      }
+      .post-content {
+        p {
+          margin: 0 0 1em;
+          font-size: 16px;
+          line-height: 30px;
+        }
+      }
+
+    }
+  }
+}
+
+
