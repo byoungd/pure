@@ -28,9 +28,9 @@ menu:
 #  - page: about
 #   directory: about/
 #   icon: fa-user
-  - page: rss
-    directory: rss/
-    icon: fa-rss
+#  - page: RSS
+#    directory: rss/
+#    icon: fa-rss
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, recent_comments and links.
   - search
