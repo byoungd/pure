@@ -251,6 +251,28 @@ pre[class*="language-"] {
   padding-bottom: 30px;
   word-wrap: break-word;
 }
+#sidebar .side_toc {
+  margin-bottom: 2em;
+}
+#sidebar .side_toc .toc-article {
+  max-width: 98%;
+  border: 1px solid #bbb;
+  border-radius: 7px;
+  margin: 0;
+  padding: 0.7em 0.7em 0 0.7em;
+}
+#sidebar .side_toc .toc-article .toc-title {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0.3em 0;
+}
+#sidebar .side_toc .toc-article ol {
+  list-style: none;
+}
+#sidebar .side_toc .toc-article ol li a {
+  font-size: 1.1em;
+  font-weight: 500;
+}
 #sidebar .widget {
   margin-bottom: 36px;
 }
