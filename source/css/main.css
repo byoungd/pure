@@ -565,11 +565,28 @@ pre {
 @media print, screen and (max-width: 48em) {
   .content_container .post .post-title {
     font-size: 1.5em;
+    text-align: center;
+  }
+  .content_container .post .post-content {
+    padding-top: 5px;
+    margin: 0;
   }
   .content_container .post .post-content p {
     margin: 0 0 1em;
     font-size: 16px;
     line-height: 30px;
+  }
+  .content_container .post .post-meta {
+    padding: 0;
+    margin: 15px 0 0;
+    color: #6E7173;
+    float: none;
+    text-align: center;
+    display: inherit;
+    text-indent: .15em;
+  }
+  .content_container .post blockquote:before, .content_container .post .stressed-quote:before {
+    margin-left: -36px;
   }
 }
 #footer {

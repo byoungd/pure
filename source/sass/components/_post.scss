@@ -239,13 +239,29 @@ pre {
     .post{
       .post-title {
         font-size: 1.5em;
+        text-align: center;
+
       }
       .post-content {
+        padding-top: 5px;
+        margin: 0;
         p {
           margin: 0 0 1em;
           font-size: 16px;
           line-height: 30px;
         }
+      }
+      .post-meta {
+        padding: 0;
+        margin: 15px 0 0;
+        color: #6E7173;
+        float: none;
+        text-align: center;
+        display: inherit;
+        text-indent: .15em;
+      }
+      blockquote:before, .stressed-quote:before {
+        margin-left: -36px;
       }
 
     }
