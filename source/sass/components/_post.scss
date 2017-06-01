@@ -1,3 +1,4 @@
+@import "compass/css3";
 @import "colors";
 /* title for search result or tagged posts*/
 
@@ -17,7 +18,7 @@
     margin: 0;
     /*font-weight: 600;*/
     line-height: 1.1;
-    font-size: 2.8em;
+    font-size: 2.4em;
     text-align: left;
     font-family:georgia,serif,"ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
     a {
@@ -95,11 +96,16 @@
     font-size: 16px;
     line-height: 32px;
     color: $posttext;
+    blockquote p {
+      margin: 1em 0;
+      padding: 0 1em;
+    }
     h2 {
       font-family: georgia,serif,"SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
-      margin: 1.4em 0 1.1em;
+      margin: .6em 0;
       border-bottom: 1px solid #eee;
       overflow: hidden;
+      padding-bottom: 4px;
     }
     h3 {
       margin: 1.4em 0 1.1em;
@@ -125,6 +131,7 @@
           text-decoration: underline;
         }
       }
+
     }
     .caption {
       color: #444;
@@ -201,6 +208,9 @@ blockquote,.stressed {
   font-size: 12px;
   padding: 1em;
   background: #ddd;
+  background: #555;
+  color: #fff;
+  @include border-radius(2px);
 }
 blockquote:before,.stressed-quote:before {
   content: "\201C";
