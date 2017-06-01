@@ -31,7 +31,7 @@ menu:
 #  - page: RSS
 #    directory: rss/
 #    icon: fa-rss
-
+hide_post_sidebar: true
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, recent_comments and links.
   - search
   - category
