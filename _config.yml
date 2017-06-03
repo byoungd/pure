@@ -17,7 +17,7 @@ busuanzi: true ## If you want to use Busuanzi page views please set the value to
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
 
 #using RGB color, drop #
-main_background: f5f5f5
+main_background: fbfbfb
 menu:
   - page: home
     directory: .
@@ -60,4 +60,4 @@ js: js
 css: css
 
 # Theme version
-version: 1.0.3
+version: 1.0.4

@@ -1,4 +1,4 @@
-# Pure Theme v: 1.0.3
+# Pure Theme v: 1.0.4
 
 An elegant Hexo template with great performance on different devices, ported from a Typecho theme by [Cho](https://github.com/pagecho/maupassant/), forked and modified from [icylogic](https://github.com/icylogic/maupassant-hexo/).
 
@@ -6,11 +6,15 @@ An elegant Hexo template with great performance on different devices, ported fro
 
 Desktop-preview:
 
-![pure-theme.png](https://ooo.0o0.ooo/2017/06/01/592f836d3066a.png)
+![pure-theme-104.png](https://ooo.0o0.ooo/2017/06/03/593219c282073.png)
+
+Post-page-preview:
+ 
+![pure-theme-post-104.png](https://ooo.0o0.ooo/2017/06/03/593219c242325.png)
 
 Mobile-preview:
 
-![pure-m-theme.png](https://ooo.0o0.ooo/2017/06/01/592f836d82ae9.png)
+![pure-theme-m-104.png](https://ooo.0o0.ooo/2017/06/03/593219c1dc50d.png)
 
 ## Installation
 Install theme and renderers:
