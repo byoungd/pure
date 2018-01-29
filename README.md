@@ -2,7 +2,6 @@
 
 An elegant Hexo template with great performance on different devices, ported from a Typecho theme by [Cho](https://github.com/pagecho/maupassant/), forked and modified from [icylogic](https://github.com/icylogic/maupassant-hexo/).
 
-[demo site](http://blog.liubi.com)
 
 Desktop-preview:
 
